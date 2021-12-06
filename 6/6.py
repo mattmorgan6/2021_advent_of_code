@@ -1,5 +1,8 @@
 def part_2():
 
+    # O(# total_days * 9) time complexity -> O(n)
+    # O(9) space complexity -> constant
+
     # read in from file, each line is an int
     with open('input.txt', 'r') as f:
 
@@ -30,6 +33,9 @@ print(part_2())
 
 
 def part_1():
+
+    # O(# total_days * # of fish) time complexity -> O(n*m)
+    # O(# of fish) space complexity -> O(m)
 
     # read in from file, each line is an int
     with open('sample.txt', 'r') as f:
